@@ -17,6 +17,9 @@
       },
       "api": {
         "amplifyreact3": {}
+      },
+      "storage": {
+        "s3b629d5d7": {}
       }
     }
   }
