@@ -89,6 +89,12 @@ async function fetchNotes() {
             variation="quiet"
             required
           />
+		  <View
+			  name="image"
+			  as="input"
+			  type="file"
+			  style={{ alignSelf: "end" }}
+			/>
           <Button type="submit" variation="primary">
             Create Note
           </Button>
@@ -122,12 +128,6 @@ async function fetchNotes() {
       </View>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
-	<View
-	  name="image"
-	  as="input"
-	  type="file"
-	  style={{ alignSelf: "end" }}
-	/>
   );
 };
 
